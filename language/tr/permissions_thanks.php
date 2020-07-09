@@ -36,8 +36,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	'ACL_F_THANKS' 						=> 'Pot agraïr missatges',
-	'ACL_M_THANKS' 						=> 'Pot esborrar la llista d\'agraïments',
-	'ACL_U_VIEWTHANKS' 					=> 'Pot veure la llista de tots els agraïments',
-	'ACL_U_VIEWTOPLIST'					=> 'Pot veure la llista de més agraïts',
+	'ACL_F_THANKS' 						=> 'MEsajlara teşekkür edebilir',
+	'ACL_M_THANKS' 						=> 'Teşekkür listesini temizleyebilir',
+	'ACL_U_VIEWTHANKS' 					=> 'Teşekkür listesini görüntüleyebilir',
+	'ACL_U_VIEWTOPLIST'					=> 'Toplisti görebilir',
 ]);
